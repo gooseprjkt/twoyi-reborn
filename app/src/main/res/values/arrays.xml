@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="password_type_items">
+        <item>@string/password_type_none</item>
+        <item>@string/password_type_digital</item>
+        <item>@string/password_type_pattern</item>
+        <item>@string/password_type_face</item>
+    </array>
+</resources>

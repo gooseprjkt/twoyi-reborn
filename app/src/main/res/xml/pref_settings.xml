@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ This Source Code Form is subject to the terms of the Mozilla Public
+  ~ License, v. 2.0. If a copy of the MPL was not distributed with this
+  ~ file, You can obtain one at https://mozilla.org/MPL/2.0/.
+  -->
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="@string/settings_category_basic">
+        <Preference
+            android:key="@string/settings_key_import_app"
+            android:summary="@string/settings_import_summary"
+            android:title="@string/settings_key_import_app" />
+
+        <Preference
+            android:key="@string/settings_key_manage_files"
+            android:summary="@string/settings_export_summary"
+            android:title="@string/settings_key_manage_files" />
+
+        <Preference
+            android:key="@string/settings_key_shutdown"
+            android:title="@string/settings_key_shutdown" />
+
+        <Preference
+            android:key="@string/settings_key_reboot"
+            android:title="@string/settings_key_reboot" />
+    </PreferenceCategory>
+
+
+    <PreferenceCategory android:title="@string/settings_category_advanced">
+
+
+        <Preference
+            android:key="@string/settings_key_replace_rom"
+            android:summary="@string/settings_replace_rom_summary"
+            android:title="@string/settings_key_replace_rom" />
+
+        <Preference
+            android:key="@string/settings_key_factory_reset"
+            android:summary="@string/settings_factory_reset_summary"
+            android:title="@string/settings_key_factory_reset" />
+
+        <Preference
+            android:title="@string/settings_key_set_password"
+            android:key="@string/settings_key_set_password"
+            android:summary="Set a security password for Twoyi"/>
+
+        <Preference
+            android:title="@string/settings_key_gms"
+            android:key="@string/settings_key_gms"
+            android:summary="@string/toggle_gms_summary"/>
+
+    </PreferenceCategory>
+
+
+    <PreferenceCategory android:title="@string/settings_category_other">
+
+        <Preference
+            android:key="@string/settings_key_sendlog"
+            android:summary="@string/settings_sendlog_summary"
+            android:title="@string/settings_key_sendlog" />
+
+        <Preference
+            android:key="@string/settings_key_donate"
+            android:summary="@string/settings_donate_summary"
+            android:title="@string/settings_key_donate" />
+
+        <Preference
+            android:key="@string/settings_key_about"
+            android:title="@string/settings_key_about" />
+    </PreferenceCategory>
+
+</PreferenceScreen>
