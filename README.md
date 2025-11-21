@@ -1,5 +1,5 @@
 <div align="center">
-    <p><b>Due to the complexity of the project and lack of any revenue, the project has been discontinued.</b></p>
+    <p><b>WEISHU, ATLEAST OPEN YOUR 0.7.5 SOURCES!!! IT IS DEXGUARD PROTECTED, SO I DECIDED TO REVERSE ENGINEER THE TWOYI 0.7.5, TWOYI LIVES!</b></p>
 </div>
 
 <div align="center">
@@ -30,7 +30,7 @@
   </p>
   <br />
   <p>
-    <a href="https://twoyi.io">
+    <a href="https://twoyi.app">
       <img
         src="https://github.com/twoyi/twoyi/blob/main/assets/twoyi_screen.jpg?raw=true"
         alt="Screenshot"
@@ -39,8 +39,6 @@
     </a>
   </p>
 </div>
-
-[README 中文版](README_CN.md)
 
 ## Introduction
 
@@ -59,7 +57,7 @@ Twoyi is a lightweight Android container. It runs a nearly complete Android syst
 1. Twoyi is a rootless Android system-level container, which runs a nearly complete Android system as a normal app and is mostly isolated from the main system.
 2. The internal Android version is Android 8.1 and Android 10 will be supported.
 3. Booting up twoyi is very fast (within three seconds) except for the initialization process.
-4. Twoyi is an open source project.
+4. Twoyi is an open source project. (atleast to 0.5.4, but this project will open the 0.7.5 ver 🔥)
 5. The internal system of twoyi will be fully customizable. Because its system is open source, you can fork the project to compile your own system. You can also customize the system components, such as the HAL layer to implement virtual cameras, virtual sensors and other special features.
 
 ## Building
@@ -98,10 +96,6 @@ Build it with Android Studio normally.
 
 WIP
 
-## Discussion
+## Contact
 
-[Telegram Group](https://t.me/twoyi)
-
-## Contact Me
-
-twsxtd@gmail.com
+TG @GooseDev72
